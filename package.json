@@ -1,5 +1,5 @@
 {
-  "name": "vite-cicd",
+  "name": "react-pipeline",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "tsc && vite build --base=/viteCICD/",
+    "build": "tsc && vite build --base=/react-pipeline/",
     "preview": "vite preview"
   },
   "dependencies": {
